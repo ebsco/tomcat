@@ -17,6 +17,8 @@
 # limitations under the License.
 #
 
+# testing: bmartino@ebsco.com
+
 # required for the secure_password method from the openssl cookbook
 ::Chef::Recipe.send(:include, Opscode::OpenSSL::Password)
 
